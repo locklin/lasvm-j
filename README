@@ -1,5 +1,6 @@
-Fork of Professor Leon Battou's "lasvm" implementation of Stochastic
-gradient descent.
+Fork of Professor Leon Bottou's "lasvm" implementation of Stochastic
+gradient descent online learning.
+
 I may modify this to do conformal prediction if it's not already 
 in there, but this is mostly for a J and possibly an R port.
 
@@ -13,3 +14,4 @@ http://sourceforge.net/projects/lush/files/lush2/
 
 I think you need to drop the -march=nocona and maybe some of the 
 other optimizations if you're not building on Intel64.
+
