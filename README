@@ -1,0 +1,15 @@
+Fork of Professor Leon Battou's "lasvm" implementation of Stochastic
+gradient descent.
+I may modify this to do conformal prediction if it's not already 
+in there, but this is mostly for a J and possibly an R port.
+
+I took them (and the build options) from the LGPL Lush sources, but 
+they can also be found here for use as a shared library. 
+
+http://leon.bottou.org/projects/lasvm
+
+Lush (which is excellent) can be found here:
+http://sourceforge.net/projects/lush/files/lush2/
+
+I think you need to drop the -march=nocona and maybe some of the 
+other optimizations if you're not building on Intel64.
